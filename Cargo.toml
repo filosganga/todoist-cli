@@ -1,0 +1,18 @@
+[package]
+name = "todoist-cli"
+description = "todoist command line client"
+version = "0.0.1"
+authors = [ "Filippo De Luca <me@filippodeluca.com>" ]
+repository = "https://github.com/filosganga/todoist-cli"
+readme = "README.md"
+keywords = ["todo", "todoist", "productivity"]
+license = "Apache-2.0"
+
+[[bin]]
+name = "todoist"
+
+[dependencies]
+clap = "^2.20.0"
+xdg = "^2.0"
+hyper = "^0.10.0"
+serde_json = "^0.8"
