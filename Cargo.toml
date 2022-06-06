@@ -14,5 +14,5 @@ name = "todoist"
 [dependencies]
 clap = "^2.20.0"
 xdg = "^2.0"
-hyper = "^0.10.0"
+hyper = "^0.14.10"
 serde_json = "^0.8"
